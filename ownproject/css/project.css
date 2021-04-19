@@ -1,0 +1,59 @@
+/**{
+    border: 0px;
+    margin: 0px;
+}*/
+ h1 {
+    color: dodgerblue;
+    text-align: center;
+    }
+   /* body{
+        background-color: cadetblue;
+            }*/
+.container
+    {
+        border: 5px solid blue;
+        height: 200px;
+        width: 300px;
+        position: absolute;
+        margin:auto;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display:flex;
+        align-items: center;
+        justify-content:space-around;
+    }
+    input[type="checkbox"]{
+        appearance:none;
+        -webkit-appearance: none;
+        height: 100px;
+        width: 100px;
+        background-color:lightsteelblue;
+        border-radius: 20px;
+        cursor: pointer;
+        outline: none;
+    }
+
+    input[type="checkbox"]:after{
+        font-family: "Font Awesome 5 Free";
+        font-weight:900;
+        content: "\f00c";
+       font-size: 100px;
+        color:blue;
+        display: none;
+
+    }
+    input[type="checkbox"]:hover
+    {
+        background-color: greenyellow;
+    }
+    input[type="checkbox"]:checked
+    {
+        background-color:forestgreen ;
+    }
+    input[type="checkbox"]:checked:after
+    {
+        display: block;
+    }
+    
